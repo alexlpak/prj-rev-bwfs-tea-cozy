@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h2, h4 {
+  padding: 10px 0;
+}
+
+h5 {
+  margin: 30px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  z-index: 1;
+  position: fixed;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav span {
+  padding-left: 20px;
+  text-decoration: underline;
+}
+
+a {
+  color: seashell;
+}
+
+a:visited {
+  color: seashell;
+}
+
+footer {
+  text-align: left;
+}
+
+footer h5 {
+  margin: 20px;
+}
+
+.contact {
+  height: 200px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  flex-direction: column;
+  padding-top: 69px;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.logo img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.mission {
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+}
+
+.mission-text {
+  background-color: black;
+  width: 100%;
+}
+
+.featured {
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.tea-otm {
+  width: 1000px;
+}
+
+.tea-otm-items {
+  flex-wrap: wrap;
+}
+
+.tea-otm-text {
+  margin: auto;
+  width: 1000px;
+}
+
+.tea-otm-item img {
+  width: 300px;
+  height: 200px;
+}
+
+.tea-otm-item {
+  margin: 15px;
+}
+
+.locations {
+  padding-top: 70px;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 240px;
+  padding: 30px;
+  margin: 0 20px;
+  background-color: black;
+  height: 240px;
+  opacity: 1;
+}
+
+.addresses {
+  margin: 5px 0;
+}
